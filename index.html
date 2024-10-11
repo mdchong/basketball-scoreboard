@@ -24,21 +24,21 @@
         <div class="container">
             <div class="home">
                 <h2 class="header">HOME</h2>
-                <p class="score">0</p>
+                <p class="score" id="home-el">0</p>
                 <div class="increment">
-                    <button onclick="">+1</button>
-                    <button onclick="">+2</button>
-                    <button onclick="">+3</button>
+                    <button onclick="incrementOneHome()">+1</button>
+                    <button onclick="incrementTwoHome()">+2</button>
+                    <button onclick="incrementThreeHome()">+3</button>
                 </div>
             </div>
 
             <div class="guest">
                 <h2 class="header">GUEST</h2>
-                <p class="score">0</p>
+                <p class="score" id="guest-el">0</p>
                 <div class="increment">
-                    <button onclick="">+1</button>
-                    <button onclick="">+2</button>
-                    <button onclick="">+3</button>
+                    <button onclick="incrementOneGuest()">+1</button>
+                    <button onclick="incrementTwoGuest()">+2</button>
+                    <button onclick="incrementThreeGuest()">+3</button>
                 </div>
             </div>
         </div>
