@@ -1,8 +1,11 @@
-let homeEl = document.getElementById("home-el");
-let guestEl = document.getElementById("guest-el");
+// Variables
+const homeEl = document.getElementById("home-el");
+const guestEl = document.getElementById("guest-el");
 let sumHome = 0;
 let sumGuest = 0;
 
+
+// Functions
 function incrementOneHome() {
     sumHome += 1;
     homeEl.textContent = sumHome;
